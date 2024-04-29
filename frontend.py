@@ -43,7 +43,7 @@ def podaj_wartosc():
             historia+=str(arg)
             if(arg==0):
                 #Zero
-                print('Nie dziel przez 0')
+                print('Nie dziel przez 0!')
                 wynik='Niedozwolone dzielenie przez 0!'
             wynik=ba.dzielenie(wynik,arg)
         elif wartosc=="=":
